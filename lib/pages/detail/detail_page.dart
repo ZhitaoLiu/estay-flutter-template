@@ -21,7 +21,7 @@ class _ESDetailPageState extends State<ESDetailPage> {
       ),
       body: Container(
         child: Align(
-          child: Text('这个详情页面内容'),
+          child: Text('这个详情页面内容,id：${widget.id}'),
         ),
       ),
     );

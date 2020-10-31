@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'package:estay_flutter_template/pages/detail/detail_page.dart';
+
 class ESHomePage extends StatefulWidget {
   @override
   _ESHomePageState createState() => _ESHomePageState();
@@ -14,7 +16,12 @@ class _ESHomePageState extends State<ESHomePage> {
       ),
       body: Container(
         child: Align(
-          child: Text('这是首页的内容'),
+          child: InkWell(
+              onTap: () {
+                Navigator.of(context).pushNamed(ESDetailPage.routeName, arguments: 12);
+              },
+              child: Text('这是首页的内容')
+          ),
         ),
       ),
     );

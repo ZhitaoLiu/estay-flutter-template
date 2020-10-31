@@ -1,4 +1,4 @@
-import 'package:estay_flutter_template/common/shared/size_fit.dart';
+import 'package:estay_flutter_template/common/fit/size_fit.dart';
 
 extension IntFit on int {
   double get px {
