@@ -1,7 +1,7 @@
 
 import 'dart:ui';
 
-class ESSizeFit {
+class SizeFit {
   // 1.基本信息
   static double physicalWidth;
   static double physicalHeight;

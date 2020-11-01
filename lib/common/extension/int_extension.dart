@@ -2,10 +2,10 @@ import 'package:estay_flutter_template/common/fit/size_fit.dart';
 
 extension IntFit on int {
   double get px {
-    return ESSizeFit.setPx(this.toDouble());
+    return SizeFit.setPx(this.toDouble());
   }
 
   double get rpx {
-    return ESSizeFit.setRpx(this.toDouble());
+    return SizeFit.setRpx(this.toDouble());
   }
 }

@@ -23,6 +23,7 @@ doc/api/
 
 # Visual Studio Code related
 .vscode/
+.DS_Store
 
 # Android related
 **/android/**/gradle-wrapper.jar

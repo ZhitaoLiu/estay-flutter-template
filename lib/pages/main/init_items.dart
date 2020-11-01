@@ -26,7 +26,7 @@ final List<BottomNavigationBarItem> items = [
 BottomNavigationBarItem _bottomNavBarItem(String title, String imgName) {
   return BottomNavigationBarItem(
     title: Text(title),
-    icon: Image.asset('assets/images/common/${imgName}.png', width: 40, height: 40,),
-    activeIcon: Image.asset('assets/images/common/${imgName}_s.png', width: 40, height: 40,),
+    icon: Image.asset('assets/images/common/${imgName}.png', width: 36, height: 36,),
+    activeIcon: Image.asset('assets/images/common/${imgName}_s.png', width: 36, height: 36,),
   );
 }

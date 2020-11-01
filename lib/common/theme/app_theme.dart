@@ -4,7 +4,7 @@ import 'package:estay_flutter_template/common/utils/color_util.dart';
 
 import '../extension/int_extension.dart';
 
-class ESAppTheme {
+class AppTheme {
   // 1.通用字体大小
   static final double bodyFontSize = 14.rpx;
   static final double smallFontSize = 16.rpx;

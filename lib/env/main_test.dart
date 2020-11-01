@@ -5,7 +5,7 @@ import 'config_env.dart';
 
 void main() {
   // 初始化环境配置
-  ESEnvConfig.setENVConfig(ENV.test);
+  EnvConfig.setENVConfig(ENV.test);
   // 启动入口函数
   mainDelegate();
 }

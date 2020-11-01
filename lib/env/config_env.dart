@@ -5,7 +5,7 @@ enum ENV {
   pro
 }
 
-class ESEnvConfig {
+class EnvConfig {
 
   // 环境变量
   static ENV _env;
@@ -16,21 +16,21 @@ class ESEnvConfig {
   static Map<String, dynamic> get envConfig => _envConfig;
 
   // 域名
-  static String _domain;
-  static String get domain => _envConfig['domain'];
+  static String _baseURL;
+  static String get baseURL => _envConfig['baseURL'];
 
   // 环境常量
   static Map<String, dynamic> devConfig = {
-    "domain": "https://dev.estay.com",
+    "baseURL": "https://dev.estay.com",
   };
   static Map<String, dynamic> testConfig = {
-    "domain": "https://test.estay.com",
+    "baseURL": "https://test.estay.com",
   };
   static Map<String, dynamic> preConfig = {
-    "domain": "https://pre.estay.com",
+    "baseURL": "https://pre.estay.com",
   };
   static Map<String, dynamic> proConfig = {
-    "domain": "https://pro.estay.com",
+    "baseURL": "https://wxapi.estay.com",
   };
 
   // 环境设置(初始化)
