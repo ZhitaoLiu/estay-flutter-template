@@ -5,6 +5,7 @@ import 'package:estay_flutter_template/pages/main/main_page.dart';
 import 'package:estay_flutter_template/pages/detail/detail_page.dart';
 import 'package:estay_flutter_template/pages/about/about_page.dart';
 import 'package:estay_flutter_template/pages/unknown/unknown_page.dart';
+// **路由路径插入标志**
 
 class ESRouter {
 
@@ -15,6 +16,7 @@ class ESRouter {
   static final Map<String, WidgetBuilder> routes = {
     ESMainPage.routeName: (ctx) => ESMainPage(),
     ESAboutPage.routeName: (ctx) => ESAboutPage(),
+    // **路由页面插入标志**
   };
 
   // 路由钩子

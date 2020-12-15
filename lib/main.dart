@@ -7,7 +7,7 @@ import 'package:estay_flutter_template/common/fit/size_fit.dart';
 import 'package:provider/provider.dart';
 
 import 'package:estay_flutter_template/viewmodel/home_view_model.dart';
-
+// **viewModel插入标志**
 
 void main() {
   EnvConfig.setENVConfig(ENV.pro);
@@ -19,6 +19,7 @@ void mainDelegate() {
   runApp(MultiProvider(
     providers: [
       ChangeNotifierProvider(create: (ctx) => HomeViewModel()),
+      // **Provider插入标志**
     ],
     child: MyApp(),
   ));
